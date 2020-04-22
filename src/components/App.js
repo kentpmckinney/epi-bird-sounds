@@ -36,12 +36,12 @@ let questions = [
     answer: 'bark'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds do vultures make?',
+    answer: 'scream'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a sparrow make?',
+    answer: 'chirp'
   },
   {
     question: 'What sounds does a bat make?',
