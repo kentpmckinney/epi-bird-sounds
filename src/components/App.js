@@ -44,31 +44,31 @@ let questions = [
     answer: 'chirp'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a starling make?',
+    answer: 'chirp'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a goldfinch make?',
+    answer: 'warble'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a crane make?',
+    answer: 'whoop'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a lark make?',
+    answer: 'trill'
   },
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
+    question: 'What sounds does a dove make?',
+    answer: 'coo'
   }
 ]
 
 function App() {
   return (
     <React.Fragment>
-      <h1><center>The Sounds Animals Make</center></h1>
+      <h1><center>The Sounds Birds Make</center></h1>
       <div className='appgrid'>
         <div className='carddiv'>
           <Card
