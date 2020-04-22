@@ -68,7 +68,7 @@ let questions = [
 function App() {
   return (
     <React.Fragment>
-      <h1><center>The Sounds Birds Make</center></h1>
+      <h1 className='apptitle'><center>Bird Sounds Quiz</center></h1>
       <div className='appgrid'>
         <div className='carddiv'>
           <Card
