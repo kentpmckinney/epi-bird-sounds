@@ -23,19 +23,19 @@ export default class Card extends Component {
 			padding: '30px',
 			borderRadius: '20px',
 			backgroundColor: 'powderblue',
-      boxShadow: '2px 2px 5px #0066AA',
-      minWidth: '500px',
-      minHeight: '175px'
-    };
-    
-    const buttonStyles = {
-      border: '2px solid rgb(0, 95, 139)',
-      backgroundColor: 'rgb(135, 217, 250)',
-      height: '50px',
-      width: '150px',
-      borderRadius: '10px',
-      marginTop: '10px'
-    }
+			boxShadow: '2px 2px 5px #0066AA',
+			minWidth: '500px',
+			minHeight: '175px'
+		};
+
+		const buttonStyles = {
+			border: '2px solid rgb(0, 95, 139)',
+			backgroundColor: 'rgb(135, 217, 250)',
+			height: '50px',
+			width: '150px',
+			borderRadius: '10px',
+			marginTop: '10px'
+		};
 
 		let q1 = this.props.questions[this.state.questionIndex].question;
 		let a1 = this.props.questions[this.state.questionIndex].answer;
@@ -44,9 +44,9 @@ export default class Card extends Component {
 			visibleSide = (
 				<React.Fragment>
 					{' '}
-          <h1>Answer: {a1}</h1>
-          <h3>Question: {q1}</h3><br/>
-          {' '}
+					<h1>Answer: {a1}</h1>
+					<h3>Question: {q1}</h3>
+					<br />{' '}
 				</React.Fragment>
 			);
 		} else {
@@ -54,9 +54,13 @@ export default class Card extends Component {
 		}
 		return (
 			<React.Fragment>
-				<div style={{ paddingBottom: '20px', textAlign:'center', alignItems: 'center' }}>
-					<div style={cardStyles}>{visibleSide}</div>
-					<button style={buttonStyles} onClick={this.handleClick}>{this.state.buttonText}</button>
+				<div style={{ paddingBottom: '20px', textAlign: 'center', alignItems: 'center' }}>
+					<div style={cardStyles}>
+						{visibleSide}
+					</div>
+					<button style={buttonStyles} onClick={this.handleClick}>
+						{this.state.buttonText}
+					</button>
 				</div>
 			</React.Fragment>
 		);
