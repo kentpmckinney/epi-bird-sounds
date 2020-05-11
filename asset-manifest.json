@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/epi-bird-sounds/static/css/main.074f8bc8.chunk.css",
+    "main.js": "/epi-bird-sounds/static/js/main.1848db90.chunk.js",
+    "main.js.map": "/epi-bird-sounds/static/js/main.1848db90.chunk.js.map",
+    "runtime-main.js": "/epi-bird-sounds/static/js/runtime-main.de2b1b5d.js",
+    "runtime-main.js.map": "/epi-bird-sounds/static/js/runtime-main.de2b1b5d.js.map",
+    "static/js/2.56eef318.chunk.js": "/epi-bird-sounds/static/js/2.56eef318.chunk.js",
+    "static/js/2.56eef318.chunk.js.map": "/epi-bird-sounds/static/js/2.56eef318.chunk.js.map",
+    "index.html": "/epi-bird-sounds/index.html",
+    "precache-manifest.53d8b4f95485aa756c3df1fedd5e8c32.js": "/epi-bird-sounds/precache-manifest.53d8b4f95485aa756c3df1fedd5e8c32.js",
+    "service-worker.js": "/epi-bird-sounds/service-worker.js",
+    "static/css/main.074f8bc8.chunk.css.map": "/epi-bird-sounds/static/css/main.074f8bc8.chunk.css.map",
+    "static/js/2.56eef318.chunk.js.LICENSE.txt": "/epi-bird-sounds/static/js/2.56eef318.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de2b1b5d.js",
+    "static/js/2.56eef318.chunk.js",
+    "static/css/main.074f8bc8.chunk.css",
+    "static/js/main.1848db90.chunk.js"
+  ]
+}
