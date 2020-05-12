@@ -46,7 +46,7 @@ example
 
 ## Deployment
 
-
+Run the command 'npm run build' to create a production release of the application under ./build
 
 ## Technologies Used
 
@@ -65,3 +65,4 @@ Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://
 
 ## Acknowledgments
 
+https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-2/hide-and-seek-flash-cards-two-day-project
