@@ -54,7 +54,7 @@ Run the command 'npm run build' to create a production release of the applicatio
 Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
 Luke Schlessinger
 
-### Copyright &copy; 2020 Kent P. McKinney
+### Copyright &copy; 2020 Kent P. McKinney and Luke Schlessinger
 
 ## Acknowledgments
 
