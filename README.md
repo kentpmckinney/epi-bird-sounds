@@ -36,14 +36,6 @@ Git (optional but recommended)
 4. Build the application with the command `npm run build`
 5. Start the application with the command `npm run start`
 
-## Running Automated Tests
-
-how to run the automated tests
-
-```
-example
-```
-
 ## Deployment
 
 Run the command 'npm run build' to create a production release of the application under ./build
@@ -60,6 +52,7 @@ Run the command 'npm run build' to create a production release of the applicatio
 ## Authors
 
 Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+Luke Schlessinger
 
 ### Copyright &copy; 2020 Kent P. McKinney
 
