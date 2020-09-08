@@ -71,9 +71,7 @@ function App() {
       <h1 className='apptitle'><center>Bird Sounds Quiz</center></h1>
       <div className='appgrid'>
         <div className='carddiv'>
-          <Card
-            questions={questions}
-          />
+          <Card questions={questions} />
         </div>
       </div>
     </React.Fragment>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Card extends Component {
+
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -9,6 +10,7 @@ export default class Card extends Component {
 			buttonText: 'See Answer'
 		};
 	}
+
 	handleClick = () => {
 		this.setState((prevState) => ({
 			flipCard: !prevState.flipCard,
@@ -18,17 +20,21 @@ export default class Card extends Component {
 	};
 
 	render() {
-		const cardStyles = {
+		const cardStyle = {
 			border: '1px solid lightblue',
 			padding: '30px',
 			borderRadius: '20px',
 			backgroundColor: 'powderblue',
 			boxShadow: '2px 2px 5px #0066AA',
-			minWidth: '500px',
-			minHeight: '175px'
+			minWidth: '400px',
+			maxWidth: '400px',
+			minHeight: '150px',
+			paddingBottom: '20px',
+			textAlign: 'center',
+			alignItems: 'center'
 		};
 
-		const buttonStyles = {
+		const buttonStyle = {
 			border: '2px solid rgb(0, 95, 139)',
 			backgroundColor: 'rgb(135, 217, 250)',
 			height: '50px',
@@ -39,30 +45,23 @@ export default class Card extends Component {
 
 		let q1 = this.props.questions[this.state.questionIndex].question;
 		let a1 = this.props.questions[this.state.questionIndex].answer;
-		let visibleSide = null;
-		if (this.state.flipCard) {
-			visibleSide = (
-				<React.Fragment>
-					{' '}
-					<h1>Answer: {a1}</h1>
-					<h3>Question: {q1}</h3>
-					<br />{' '}
-				</React.Fragment>
-			);
-		} else {
-			visibleSide = <h1>{q1}</h1>;
-		}
+
+		let front = (<h1>{q1}</h1>);
+		let back = (<h1>Answer: {a1}</h1>);
+
 		return (
 			<React.Fragment>
-				<div style={{ paddingBottom: '20px', textAlign: 'center', alignItems: 'center' }}>
-					<div style={cardStyles}>
-						{visibleSide}
+				<div className="flip-card">
+    			<div className="flip-card-inner">
+						<div className="flip-card-front" style={cardStyle}>{front}</div>
+						<div className="flip-card-back" style={cardStyle}>{back}</div>
 					</div>
-					<button style={buttonStyles} onClick={this.handleClick}>
-						{this.state.buttonText}
-					</button>
 				</div>
+				<button style={buttonStyle} onClick={this.handleClick}>
+			 		{this.state.buttonText}
+			 	</button>
 			</React.Fragment>
 		);
+
 	}
 }
