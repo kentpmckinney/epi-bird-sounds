@@ -4,10 +4,6 @@ import './App.css';
 
 let questions = [
   {
-    question: 'What sounds does a bat make?',
-    answer: 'screech'
-  },
-  {
     question: 'What sounds does a crow make?',
     answer: 'caw'
   },
@@ -30,10 +26,6 @@ let questions = [
   {
     question: 'What sounds does a raven make?',
     answer: 'caw'
-  },
-  {
-    question: 'What sounds do seals make?',
-    answer: 'bark'
   },
   {
     question: 'What sounds do vultures make?',
@@ -65,17 +57,66 @@ let questions = [
   }
 ]
 
-function App() {
-  return (
-    <React.Fragment>
-      <h1 className='apptitle'><center>Bird Sounds Quiz</center></h1>
-      <div className='appgrid'>
-        <div className='carddiv'>
-          <Card questions={questions} />
+const buttonStyle = {
+  border: '2px solid rgb(0, 95, 139)',
+  backgroundColor: 'rgb(135, 217, 250)',
+  height: '50px',
+  width: '150px',
+  borderRadius: '10px',
+  marginTop: '10px'
+};
+
+const gridStyle = {
+  display: 'grid',
+  gridTemplateColumns: '1fr',
+  gridTemplateRows: '1fr 3fr 1fr',
+  justifyContent: 'center'
+}
+
+const row1Style = {
+  gridArea: '1 / 1 / span 1 / span 1',
+  color: '#0074D9',
+  display: 'grid',
+  justifyContent: 'center'
+}
+
+const row2style = {
+  gridArea: '2 / 1 / span 1 / span 1',
+  display: 'grid',
+  justifyContent: 'center'
+}
+
+const row3style = {
+  gridArea: '3 / 1 / span 1 / span 1'
+}
+
+class App extends React.Component {
+  state = { index: 0 }
+
+  handleClick = () => {
+    let _index = this.state.index;
+    _index++;
+    _index >= questions.length
+      ? this.setState({ index: 0 })
+      : this.setState({ index: _index})
+  }
+
+  render () {
+    return (
+      <div style={gridStyle}>
+        <div style={row1Style}>
+          <h1>Bird Sounds Quiz</h1>
+        </div>
+        <div style={row2style}>
+          <Card question={questions[this.state.index]} />
+        </div>
+        <div style={row3style}>
+          <button style={buttonStyle} onClick={this.handleClick}>Next Question</button>
         </div>
       </div>
-    </React.Fragment>
-  );
+    )
+  }
+
 }
 
 export default App;

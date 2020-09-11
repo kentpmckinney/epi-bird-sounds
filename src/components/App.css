@@ -1,16 +1,12 @@
-
-
 body {
 	background-color: skyblue;
 	text-align: center;
 }
 
-.apptitle {
-  color: #0074D9;
-}
-
 .flip-card {
-  background-color: transparent;
+	background-color: transparent;
+	width: 450px; /* width plus half of the padding of the card content */
+	height: 150px;
 	perspective: 1000px;
 }
 
@@ -21,12 +17,10 @@ body {
   text-align: center;
   transition: transform 0.5s;
 	transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
-	transform-origin: center center;
 }
 
 .flip-card-front, .flip-card-back {
@@ -46,5 +40,4 @@ body {
   background-color: #2980b9;
   color: black;
 	transform: rotateY(180deg);
-	transform-origin: center center;
 }
