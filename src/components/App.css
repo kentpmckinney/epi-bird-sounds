@@ -1,6 +1,10 @@
 body {
 	background-color: skyblue;
 	text-align: center;
+	@import url('https://fonts.googleapis.com/css2?family=Grandstander');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+	font-family: 'Grandstander', cursive;
+	font-weight: lighter;
 }
 
 .flip-card {

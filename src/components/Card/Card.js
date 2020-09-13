@@ -9,7 +9,10 @@ const cardStyle = {
 	width: '400px',
 	height: '150px',
 	alignItems: 'center',
-	fontSize: '16pt'
+	fontSize: '20pt',
+	fontWeight: 'lighter',
+	display: 'grid',
+	justifyContent: 'center'
 };
 
 export default class Card extends Component {
@@ -19,7 +22,7 @@ export default class Card extends Component {
 				<div className="flip-card">
     			<div className="flip-card-inner">
 						<div className="flip-card-front" style={cardStyle}>{this.props.question.question}</div>
-						<div className="flip-card-back" style={cardStyle}>Answer: {this.props.question.answer}</div>
+						<div className="flip-card-back" style={cardStyle}><div style={{color: 'steelblue', fontSize: '12pt'}}>Answer:</div>{this.props.question.answer}</div>
 					</div>
 				</div>
 			</div>

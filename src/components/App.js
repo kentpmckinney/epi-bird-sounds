@@ -77,13 +77,16 @@ const row1Style = {
   gridArea: '1 / 1 / span 1 / span 1',
   color: '#0074D9',
   display: 'grid',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  fontFamily: ['Montserrat','sans-serif'],
+  fontSize: '28pt'
 }
 
 const row2style = {
   gridArea: '2 / 1 / span 1 / span 1',
   display: 'grid',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  height: '240px'
 }
 
 const row3style = {
@@ -105,7 +108,7 @@ class App extends React.Component {
     return (
       <div style={gridStyle}>
         <div style={row1Style}>
-          <h1>Bird Sounds Quiz</h1>
+          <span>Bird Sounds Quiz</span>
         </div>
         <div style={row2style}>
           <Card question={questions[this.state.index]} />
