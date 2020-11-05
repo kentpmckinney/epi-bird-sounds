@@ -1,61 +1,82 @@
-<!-- Category: Epicodus;React;HTML/CSS/JS -->
+
 # Bird Sounds Quiz
 
 A quiz of the sounds various birds make for the English language
 
-https://github.com/kentpmckinney/epi-bird-sounds
+  <br/>
 
-## Previewing this Project
+### How to Use
+.
 
-This project is hosted at: https://kentpmckinney.github.io/epi-bird-sounds
+<br/>
 
-## Working with the Source Code
+### Previewing this Project
 
-The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
+<br/>
 
-### Prerequisites
+### Technologies Used
 
-The following software must be installed and properly configured on the target machine. 
+  <code>JavaScript
+HTML
+CSS
+React</code>
+  <br/>
+  <br/>
 
-```
-An updated web browser (Internet Explorer is not compatible)
-```
-```
-Node.js
-```
-```
-Git (optional but recommended)
-```
+### Working with the Source Code
 
-### Setting up a Development Environment
+<details>
+  <summary>Instructions</summary>
 
-1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-bird-sounds
-   or clone using the repository link: https://github.com/kentpmckinney/epi-bird-sounds.git
-2. Navigate to the folder location of the source files in Finder or in the Terminal
-3. Run the command `npm install` to download a local cache of the npm packages used by this application
-4. Build the application with the command `npm run build`
-5. Start the application with the command `npm run start`
+  <br>
+  The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
 
-## Deployment
+  <br/>
+  <br/>
 
-Run the command 'npm run build' to create a production release of the application under ./build
+  ### Prerequisites
 
-## Technologies Used
+  The following software must be installed and properly configured on the target machine. 
 
-* JavaScript
-* HTML
-* CSS
-* React
-* Webpack
-* Babel
+  
 
-## Authors
+* Git (recommended)
+* An updated web browser (Internet Explorer may not be compatible)
+  <br/>
 
-Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
-Luke Schlessinger
+  ### Setting up a Development Environment
 
-### Copyright &copy; 2020 Kent P. McKinney and Luke Schlessinger
+  The following steps are meant to be a quick way to get the project up and running.
 
-## Acknowledgments
+  
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-bird-sounds or clone using the repository link: https://github.com/kentpmckinney/epi-bird-sounds.git
+1. Launch a new tab in a web browser
+1. Select to open a file location and navigate to the folder location of the source files
+1. Choose the file <code>index.html</code>
+  <br/>
 
-https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-2/hide-and-seek-flash-cards-two-day-project
+  ### Notes
+
+  
+
+  ### Deployment
+
+  The files provided are ready to be deployed directly to a web server.
+
+</details>
+
+<br/>
+
+### Authors
+
+[kentpmckinney](https://github.com/kentpmckinney)
+<br/>
+<br/>
+
+### Acknowledgments
+
+<sub>https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-2/hide-and-seek-flash-cards-two-day-project</sub>
+<br/>
+<br/>
+
+###### <sub>Copyright&copy; 2020 [kentpmckinney](https://github.com/kentpmckinney). All rights reserved.</sub>
