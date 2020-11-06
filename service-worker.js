@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/epi-bird-sounds/precache-manifest.74b354e313f903bc68e8f4ffff7b5081.js"
+  "/epi-bird-sounds/precache-manifest.237400f64eaf54afa47695e5975e48dd.js"
 );
 
 self.addEventListener('message', (event) => {
