@@ -11,6 +11,7 @@ A quiz of the sounds various birds make for the English language
 <br/>
 
 ### Previewing this Project
+![Screenshot](http://kentpmckinney.github.io/epi-bird-sounds/epi-bird-sounds.gif)
 
 <br/>
 
