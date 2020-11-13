@@ -6,7 +6,7 @@ A quiz of the sounds various birds make for the English language
   <br/>
 
 ### How to Use
-.
+Press and hold or hover over a question to view the answer. Select 'Next Question' to continue.
 
 <br/>
 
