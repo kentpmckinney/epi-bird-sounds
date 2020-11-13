@@ -1,8 +1,13 @@
 Categories: `Epicodus;HTML/CSS/JS;React;Featured`
 Technologies: `JavaScript;HTML;CSS;React`
 Summary: `A quiz of the sounds various birds make for the English language`
-Instructions: `.`
+Description: ``
+Instructions: `Press and hold or hover over a question to view the answer. Select 'Next Question' to continue.`
 Demolink: ``
+Demo: `Yes`
+Source: `Yes`
+Notes: ``
 Screenshots: `http://kentpmckinney.github.io/epi-bird-sounds/epi-bird-sounds.gif`
 Acknowledgments: `https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-2/hide-and-seek-flash-cards-two-day-project`
 Portfolio: `Yes`
+External: `No`
