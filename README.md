@@ -11,6 +11,8 @@ Press and hold or hover over a question to view the answer. Select 'Next Questio
 <br/>
 
 ### Previewing this Project
+A [live demo](https://kentpmckinney.github.io/epi-bird-sounds) of this application is available
+
 ![Screenshot](http://kentpmckinney.github.io/epi-bird-sounds/epi-bird-sounds.gif)
 
 <br/>
@@ -27,13 +29,13 @@ React</code>
 ### Working with the Source Code
 
 <details markdown="1">
-  <summary>Instructions</summary>
+  <summary markdown="1">Instructions</summary>
 
-  <br/>
+  <br markdown="1"/>
   The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
 
-  <br/>
-  <br/>
+  <br markdown="1"/>
+  <br markdown="1"/>
 
   ### Prerequisites
 
@@ -43,7 +45,7 @@ React</code>
 
 * Git (recommended)
 * An updated web browser (Internet Explorer may not be compatible)
-  <br/>
+  <br markdown="1"/>
 
   ### Setting up a Development Environment
 
@@ -54,7 +56,7 @@ React</code>
 1. Launch a new tab in a web browser
 1. Select to open a file location and navigate to the folder location of the source files
 1. Choose the file <code>index.html</code>
-  <br/>
+  <br markdown="1"/>
 
   ### Notes
 
@@ -66,18 +68,18 @@ React</code>
 
 </details>
 
-<br/>
+<br markdown="1"/>
 
 ### Authors
 
 [kentpmckinney](https://github.com/kentpmckinney)
-<br/>
-<br/>
+<br markdown="1"/>
+<br markdown="1"/>
 
 ### Acknowledgments
 
 <sub markdown="1">https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-2/hide-and-seek-flash-cards-two-day-project</sub>
-<br/>
-<br/>
+<br markdown="1"/>
+<br markdown="1"/>
 
 ###### <sub markdown="1">Copyright&copy; 2020 [kentpmckinney](https://github.com/kentpmckinney). All rights reserved.</sub>
